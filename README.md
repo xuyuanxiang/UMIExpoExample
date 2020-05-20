@@ -72,6 +72,23 @@ yarn ios
 
 添加`umi`和`umi-preset-react-native`依赖后的代码：[0.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/0.1.0) 。
 
+**需要修改 package.json：**
+
+```diff
+{
+-  "main": "node_modules/expo/AppEntry.js",
++  "main": "index",
+  "scripts": {
++   "watch": "umi g rn --dev",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  }
+}
+```
+
 查看变更内容：
 
 - [compare/0.0.1...0.1.0](https://github.com/xuyuanxiang/UMIExpoExample/compare/0.0.1...0.1.0)
@@ -87,7 +104,15 @@ yarn ios
 
 ### 1.1.0-集成 @ant-design/react-native
 
-添加`@ant-design/react-native`和`expo-font`依赖后的代码：[1.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.1.0)。
+添加`@ant-design/react-native`依赖后的代码：[1.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.1.0)。
+
+**需要使用 expo 安装 `expo-font`和`@ant-design/react-native` 依赖：**
+
+```npm
+expo install expo-font @ant-design/react-native
+```
+
+_`expo-font`用来加载`@ant-design/react-native`的字体图标。_
 
 查看变动内容：
 
@@ -97,6 +122,8 @@ yarn ios
 ### 1.2.0-集成 react-navigation
 
 添加`umi-plugin-react-navigation`依赖后的代码：[1.2.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.2.0)。
+
+**需要使用 expo 安装所有 react-navigation 的依赖：**
 
 ```npm
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
