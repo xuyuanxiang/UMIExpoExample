@@ -28,7 +28,7 @@
     "babel-preset-expo": "~8.1.0",
     "umi": "^3.2.1",
     "umi-plugin-antd-react-native": "^0.3.0-alpha.5",
-    "umi-preset-react-native": "^0.3.0-alpha.4",
+    "umi-preset-react-native": "^0.3.0",
     "umi-preset-react-navigation": "^0.3.0-alpha.0"
   },
   "private": true

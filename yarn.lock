@@ -11249,10 +11249,10 @@ ultron@~1.1.0:
   resolved "https://registry.npmjs.org/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
   integrity sha512-UIEXBNeYmKptWH6z8ZnqTeS8fV74zG0/eRU9VGkpzz+LIJNs8W/zM/L+7ctCkRrgbNnnR0xxw4bKOr0cW0N0Og==
 
-umi-plugin-antd-react-native@^0.3.0-alpha.0:
-  version "0.3.0-alpha.0"
-  resolved "https://registry.npmjs.org/umi-plugin-antd-react-native/-/umi-plugin-antd-react-native-0.3.0-alpha.0.tgz#0600a25b5b4c12c2486c0c9b5565394b52a531a2"
-  integrity sha512-AlSHtDurjXNR91TrM3tp2SzYfsb6t7jhve5A6khgz/J4GHFx3qI0aZACcfekQmJpiljSX7e+caBAmo6AGFZJtA==
+umi-plugin-antd-react-native@^0.3.0-alpha.5:
+  version "0.3.0-alpha.5"
+  resolved "https://registry.npm.taobao.org/umi-plugin-antd-react-native/download/umi-plugin-antd-react-native-0.3.0-alpha.5.tgz#86260986865dbbed539c3f30f448aedc052e0f2b"
+  integrity sha1-hiYJhoZdu+1TnD8w9Eiu3AUuDys=
 
 umi-preset-react-native@^0.3.0-alpha.4:
   version "0.3.0-alpha.4"

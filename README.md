@@ -32,16 +32,10 @@ UMIExpoExample 创建时，使用的初始模板：
 yarn global add expo-cli
 ```
 
-将 UMIExpoExample clone 到本地后，使用 yarn 和 expo 安装依赖：
+将 UMIExpoExample clone 到本地后，安装依赖：
 
 ```npm
-yarn && expo install
-```
-
-链接`@ant-design/react-native`字体（图标）资源文件：
-
-```npm
-yarn react-native link
+yarn
 ```
 
 启动 watch 进程，监听文件变动，重新生成中间代码：
@@ -50,17 +44,12 @@ yarn react-native link
 yarn watch
 ```
 
-另启一个终端，启动 Android 应用：
+另启一个终端，启动 expo 应用：
 
 ```npm
-yarn android
+yarn start
 ```
 
-启动 iOS 应用：
-
-```npm
-yarn ios
-```
 
 ## 变更记录
 
