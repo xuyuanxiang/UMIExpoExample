@@ -1,13 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up pages/index.js to start working on your app!</Text>
-    </View>
-  );
-}
+import {View, Text, StyleSheet} from 'react-native';
+import {connect} from 'umi';
 
 const styles = StyleSheet.create({
   container: {
@@ -17,3 +10,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+const ConnectedIndexPage = connect(({foo, loading: {effects}}) => ({
+  text: foo.text,
+  loading: effects['foo/fetch'],
+}))(({text, loading}) => (
+  <View style={styles.container}>
+    <Text>{loading ? 'Loading...' : text}</Text>
+  </View>
+));
+
+export default ConnectedIndexPage;
