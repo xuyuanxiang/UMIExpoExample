@@ -12,3 +12,9 @@ web-report/
 
 # macOS
 .DS_Store
+
+# umi-react-native
+tmp
+index.js
+babel.config.js
+metro.config.js

@@ -1,6 +1,7 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
+  "main": "index",
   "scripts": {
+    "watch": "umi g rn --dev",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -15,8 +16,10 @@
     "react-native-web": "~0.11.7"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.6",
     "babel-preset-expo": "~8.1.0",
-    "@babel/core": "^7.8.6"
+    "umi": "^3.2.1",
+    "umi-preset-react-native": "^0.3.0-alpha.3"
   },
   "private": true
 }
