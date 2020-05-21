@@ -10,9 +10,9 @@
 
 **需要了解如何使用[expo](https://expo.io/learn)开发 RN 应用。**
 
-UMIExpoExample 创建时，使用的初始模板：
+你可以使用**UMIExpoExample**作为模板，[快速开始](#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)业务开发；
 
-![](https://cdn.xuyuanxiang.me/initial_template_a02ffdb8.png)
+也可以从零开始徒手搭建，在[变更记录](#%E5%8F%98%E6%9B%B4%E8%AE%B0%E5%BD%95)中追溯每一步代码变动的内容。
 
 ## 目录
 
@@ -32,10 +32,16 @@ UMIExpoExample 创建时，使用的初始模板：
 yarn global add expo-cli
 ```
 
-将 UMIExpoExample clone 到本地后，安装依赖：
+将 UMIExpoExample clone 到本地后，使用 yarn 和 expo 安装依赖：
 
 ```npm
-yarn
+yarn && expo install
+```
+
+链接`@ant-design/react-native`字体（图标）资源文件：
+
+```npm
+yarn react-native link
 ```
 
 启动 watch 进程，监听文件变动，重新生成中间代码：
@@ -44,18 +50,27 @@ yarn
 yarn watch
 ```
 
-另启一个终端，启动 expo 应用：
+另启一个终端，启动 Android 应用：
 
 ```npm
-yarn start
+yarn android
 ```
 
+启动 iOS 应用：
+
+```npm
+yarn ios
+```
 
 ## 变更记录
 
 ### 0.0.1-初始工程
 
 使用`expo init`得到初始代码：[0.0.1](https://github.com/xuyuanxiang/UMIExpoExample/tree/0.0.1)
+
+UMIExpoExample 在创建时，使用的是第一个模板：
+
+![](https://cdn.xuyuanxiang.me/initial_template_a02ffdb8.png)
 
 ### 0.1.0-安装 umi 和 umi-preset-react-native
 
