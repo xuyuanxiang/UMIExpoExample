@@ -32,16 +32,10 @@
 yarn global add expo-cli
 ```
 
-将 UMIExpoExample clone 到本地后，使用 yarn 和 expo 安装依赖：
+将 UMIExpoExample clone 到本地后，进到工程根目录安装依赖：
 
 ```npm
-yarn && expo install
-```
-
-链接`@ant-design/react-native`字体（图标）资源文件：
-
-```npm
-yarn react-native link
+yarn
 ```
 
 启动 watch 进程，监听文件变动，重新生成中间代码：
@@ -50,16 +44,10 @@ yarn react-native link
 yarn watch
 ```
 
-另启一个终端，启动 Android 应用：
+另启一个终端，启动 expo：
 
 ```npm
-yarn android
-```
-
-启动 iOS 应用：
-
-```npm
-yarn ios
+yarn start
 ```
 
 ## 变更记录
@@ -76,7 +64,7 @@ UMIExpoExample 在创建时，使用的是第一个模板：
 
 添加`umi`和`umi-preset-react-native`依赖后的代码：[0.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/0.1.0) 。
 
-**需要修改 package.json：**
+关键点：**需要修改 package.json**
 
 ```diff
 {
@@ -110,7 +98,7 @@ UMIExpoExample 在创建时，使用的是第一个模板：
 
 添加`@ant-design/react-native`依赖后的代码：[1.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.1.0)。
 
-**需要使用 expo 安装 `expo-font`和`@ant-design/react-native` 依赖：**
+关键点：**需要使用 expo 安装 `expo-font`和`@ant-design/react-native` 依赖**
 
 ```npm
 expo install expo-font @ant-design/react-native
@@ -127,7 +115,7 @@ _`expo-font`用来加载`@ant-design/react-native`的字体图标。_
 
 添加`umi-plugin-react-navigation`依赖后的代码：[1.2.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.2.0)。
 
-**需要使用 expo 安装所有 react-navigation 的依赖：**
+关键点：**需要使用 expo 安装所有 react-navigation 的依赖**
 
 ```npm
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
