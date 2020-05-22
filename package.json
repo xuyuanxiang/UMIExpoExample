@@ -27,9 +27,9 @@
     "@umijs/plugin-dva": "^0.7.1",
     "babel-preset-expo": "~8.1.0",
     "umi": "^3.2.1",
-    "umi-plugin-antd-react-native": "^0.3.2",
-    "umi-preset-react-native": "^0.3.3",
-    "umi-preset-react-navigation": "^0.3.2"
+    "umi-plugin-antd-react-native": "^0.3.4",
+    "umi-preset-react-native": "^0.3.4",
+    "umi-preset-react-navigation": "^0.3.4"
   },
   "private": true
 }
