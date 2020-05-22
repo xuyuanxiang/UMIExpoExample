@@ -120,7 +120,7 @@ expo install expo-font @ant-design/react-native && yarn add umi-plugin-antd-reac
 
 ### 1.2.0-集成 react-navigation
 
-添加`umi-plugin-react-navigation`依赖后的代码：[1.2.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.2.0)。
+添加`umi-preset-react-navigation`依赖后的代码：[1.2.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.2.0)。
 
 ```npm
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view && yarn add umi-preset-react-navigation --dev
