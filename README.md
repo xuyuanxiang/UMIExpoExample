@@ -62,13 +62,11 @@ UMIExpoExample 在创建时，使用的是第一个模板：
 
 ### 0.1.0-安装 umi 和 umi-preset-react-native
 
-代码：[0.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/0.1.0) 。
-
 ```npm
 yarn add umi umi-preset-react-native --dev
 ```
 
-package.json:
+**修改 package.json 文件：**
 
 ```diff
 {
@@ -85,17 +83,19 @@ package.json:
 }
 ```
 
+代码：[0.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/0.1.0) 。
+
 查看变更内容：
 
 - [compare/0.0.1...0.1.0](https://github.com/xuyuanxiang/UMIExpoExample/compare/0.0.1...0.1.0)
 
 ### 1.0.0-集成 DvaJS
 
-添加`@umijs/plugin-dva`依赖后的代码：[1.0.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.0.0)。
-
 ```npm
 yarn add @umijs/plugin-dva --dev
 ```
+
+代码：[1.0.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.0.0)。
 
 查看变动内容：
 
@@ -103,15 +103,15 @@ yarn add @umijs/plugin-dva --dev
 
 ### 1.1.0-集成 @ant-design/react-native
 
-代码：[1.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.1.0)。
+**需要使用 expo 安装 `expo-font`和`@ant-design/react-native`：**
 
 ```npm
 expo install expo-font @ant-design/react-native && yarn add umi-plugin-antd-react-native --dev
 ```
 
-**需要使用 expo 安装 `expo-font`和`@ant-design/react-native`。**
+_`expo-font`用来加载`@ant-design/react-native`的字体图标。_
 
-`expo-font`用来加载`@ant-design/react-native`的字体图标。
+代码：[1.1.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.1.0)。
 
 查看变动内容：
 
@@ -119,13 +119,13 @@ expo install expo-font @ant-design/react-native && yarn add umi-plugin-antd-reac
 
 ### 1.2.0-集成 react-navigation
 
-代码：[1.2.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.2.0)。
+**需要使用 expo 安装所有 react-navigation 的依赖：**
 
 ```npm
 expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view && yarn add umi-preset-react-navigation --dev
 ```
 
-**需要使用 expo 安装所有 react-navigation 的依赖。**
+代码：[1.2.0](https://github.com/xuyuanxiang/UMIExpoExample/tree/1.2.0)。
 
 查看变动内容：
 
