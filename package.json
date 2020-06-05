@@ -9,7 +9,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@ant-design/react-native": "3.3.0",
+    "@ant-design/react-native": "~3.3.0",
     "@react-native-community/masked-view": "0.1.6",
     "expo": "~37.0.3",
     "expo-font": "~8.1.0",
@@ -27,9 +27,9 @@
     "@umijs/plugin-dva": "^0.7.1",
     "babel-preset-expo": "~8.1.0",
     "umi": "^3.2.1",
-    "umi-plugin-antd-react-native": "^0.3.4",
-    "umi-preset-react-native": "^0.3.4",
-    "umi-preset-react-navigation": "^0.3.4"
+    "umi-plugin-antd-react-native": "^0.5.0",
+    "umi-preset-react-native": "^0.5.2",
+    "umi-preset-react-navigation": "^0.5.1"
   },
   "private": true
 }
