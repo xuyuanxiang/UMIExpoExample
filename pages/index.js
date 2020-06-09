@@ -36,7 +36,7 @@ function IndexPage() {
   );
 }
 
-IndexPage.title = '收钱吧';
+IndexPage.title = '首页';
 IndexPage.headerTintColor = '#ffffff';
 IndexPage.headerTitleStyle = {
   fontWeight: 'bold',

@@ -51,7 +51,7 @@ function SettingsPage({navigation}) {
         <List.Item
           onPress={() => setChecked(!checked)}
           extra={<Switch checked={checked} onChange={setChecked} />}>
-          语音播报
+          开启推送
         </List.Item>
       </List>
       <WhiteSpace size="lg" />
