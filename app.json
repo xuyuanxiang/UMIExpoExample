@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.github.xuyuanxiang.UMIExpoExample"
+    },
+    "android": {
+      "package": "com.github.xuyuanxiang.UMIExpoExample"
+    },
+    "entryPoint": "index"
   }
 }
