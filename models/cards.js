@@ -14,8 +14,8 @@ export default {
   },
   effects: {
     *fetch(
-      {payload: {page = 0, size = 10} = {page: 0, size: 10}} = {
-        payload: {page: 0, size: 10},
+      {payload: {page = 0, size =20} = {page: 0, size: 20}} = {
+        payload: {page: 0, size: 20},
       },
       {put, select, take},
     ) {
