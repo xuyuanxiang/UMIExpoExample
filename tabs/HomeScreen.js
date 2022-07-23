@@ -12,30 +12,22 @@ export default function HomeScreen() {
   const dataSource = useSelector((state) => state.cards.dataSource);
   return (
     <>
-      <Grid data={data} columnNum={4} isCarousel />
-      <WhiteSpace size="lg" />
-      <ScrollView style={{background: '#f5f5f5'}}>
+      {/* <Grid data={data} columnNum={4} isCarousel /> */}
+      {/* <WhiteSpace size="lg" /> */}
+      {/* <ScrollView style={{ background: '#s882123' }}>
         {dataSource.map((it, i) => (
           <Card full key={`card_${i}`}>
-            <Card.Header
-              title="Full Column"
-              thumbStyle={{width: 30, height: 30}}
-              thumb="https://gw.alipayobjects.com/zos/rmsportal/MRhHctKOineMbKAZslML.jpg"
-              extra="this is extra"
-            />
+            <Card.Header title="Full Column" thumbStyle={{ width: 30, height: 30 }} thumb="https://gw.alipayobjects.com/zos/rmsportal/MRhHctKOineMbKAZslML.jpg" extra="this is extra" />
             <Card.Body>
-              <View style={{height: 42}}>
-                <Text style={{marginLeft: 16}}>{it}</Text>
+              <View style={{ height: 42 }}>
+                <Text style={{ marginLeft: 16 }}>{it}</Text>
               </View>
             </Card.Body>
-            <Card.Footer
-              content="footer content"
-              extra="footer extra content"
-            />
+            <Card.Footer content="footer content" extra="footer extra content" />
           </Card>
         ))}
         <WhiteSpace size="lg" />
-      </ScrollView>
+      </ScrollView> */}
     </>
   );
 }

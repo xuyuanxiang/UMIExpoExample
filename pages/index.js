@@ -22,7 +22,7 @@ function IndexPage() {
           component={HomeScreen}
         />
         <Screen
-          name="我的"
+          name="个人"
           options={({route}) => ({
             tabBarIcon: ({focused, color, size}) => {
               // You can return any component that you like here!
@@ -35,14 +35,14 @@ function IndexPage() {
     </>
   );
 }
-
-IndexPage.title = '首页';
+IndexPage.title = '';
 IndexPage.headerTintColor = '#ffffff';
 IndexPage.headerTitleStyle = {
   fontWeight: 'bold',
+  display: 'none',
 };
 IndexPage.headerStyle = {
-  backgroundColor: '#000000',
+  backgroundColor: '#fff',
 };
 
 export default IndexPage;
